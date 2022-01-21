@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* front eing */
+    font-family: 'Roboto', sans-serif;
+
+    /* fron thai */
+    font-family: 'Itim', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg {
+    background-color: #2F3136;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+nav {
+    height: 56px;
+    /* border: 1px solid red; */
+    display: flex; /* ทำให้กล่องมาอยู่บรรทัดเดียวกัน */
+    /*justify-content: space-between;*/ /* เว้นระยะห่างให้เท่า ๆกัน แนวนอน*/
+    justify-content: center; /* ให้ item อยู่กลางกล่อง แนวนอน */
+    align-items: center; /* ให้ item อยู่กลางกล่อง แนวตั้ง */
+    background-color: #202225;
+}
+
+a {
+    color: #ADBBBE;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none; /* เอาจุดออก */
+    width: 1080;
+    /* border: 1px solid red; */
+}
+
+nav div {
+    margin-right: 30px;
+}
+
+nav ul li {
+    margin-right: 60px;
+}
+
+nav ul li a {
+    text-decoration: none; /* เอาเส้นใต้ออก */
+}
+
+/* ส่วนของการเลือกวิธีการรสุ่มอาหาร */
+.navbar-intro{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.nav-intro {
+    display: flex;
+    width: 1080px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    /* border: 1px solid red; */
+    
+}
+
+.item-intro {
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.text-intro {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+/* ข้อความอาหารทั้งหมด และ คำอธิบาย */
+.subject {
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.sj-box {
+    width: 415px;
+    text-align: center;
+}
+
+.sj-title h1 {
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.sj-p p {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+/* รูปอาหาร กล่องที่1 */
+.container-box01 {
+    display: flex;
+    justify-content: center;
+}
+
+.con-box01 {
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+    margin-left: 180px;
+    margin-right: 180px;
+    /* border: 1px solid red; */
+    width: 1080px;
+}
+
+.box-a {
+    /* border: 1px solid red; */
+    margin-right: 20px;
+}
+
+.box-a h1 {
+    /* border: 1px solid red; */
+    width: 207px;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.box-a img {
+    width: 530px;
+    height: 353px;
+}
+
+.box-b {
+    /* border: 1px solid red; */
+    height: 359px;
+}
+
+.box-b h1 {
+    /* border: 1px solid red; */
+    width: 241px;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.box-b img {
+    width: 530px;
+    height: 298;
+}
